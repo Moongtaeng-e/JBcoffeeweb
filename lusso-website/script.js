@@ -48,3 +48,4 @@ setInterval(() => {
   current = (current + 1) % images.length;
   hero.style.backgroundImage = `url('${images[current]}')`;
 }, 6000);
+
