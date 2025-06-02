@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lusso Coffee</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/cafe24-anemone@1.0.0/style.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero fade-in">
+    <div class="overlay">
+      <h1 class="brand-name">Lusso</h1>
+      <p class="tagline">고급스러움 그 자체</p>
+    </div>
+  </header>
+
+  <section class="intro fade-in">
+    <div class="intro-text">
+      <h2>브랜드 소개</h2>
+      <p>Lusso는 ‘럭셔리’를 의미하는 이탈리아어로, 고급 커피 경험을 현대적인 감각으로 재해석한 브랜드입니다. 세련된 분위기와 깊은 풍미로 일상의 격을 높여드립니다.</p>
+    </div>
+    <img src="images/ai-brand-image.jpg" alt="브랜드 이미지" class="intro-image"/>
+  </section>
+
+  <section class="products fade-in">
+    <h2>시그니처 커피</h2>
+    <div class="product-list">
+      <div class="product" data-product="에티오피아 내추럴 블렌드">
+        <img src="images/ai-coffee-product1.jpg" alt="커피 제품1"/>
+        <p>에티오피아 내추럴 블렌드</p>
+      </div>
+      <div class="product" data-product="콜롬비아 수프리모">
+        <img src="images/ai-coffee-product2.jpg" alt="커피 제품2"/>
+        <p>콜롬비아 수프리모</p>
+      </div>
+      <div class="product" data-product="케냐 AA 싱글 오리진">
+        <img src="images/ai-coffee-product3.jpg" alt="커피 제품3"/>
+        <p>케냐 AA 싱글 오리진</p>
+      </div>
+    </div>
+  </section>
+
+ <section class="cafe fade-in">
+  <div class="cafe-gallery">
+    <img src="images/ai-cafe-interior.jpg" alt="카페 인테리어 1" class="cafe-image"/>
+    <img src="images/ai-cafe-interior2.jpg" alt="카페 인테리어 2" class="cafe-image"/>
+    <img src="images/ai-cafe-interior3.jpg" alt="카페 인테리어 3" class="cafe-image"/>
+  </div>
+  <div class="cafe-text">
+    <h2>감각적인 공간</h2>
+    <p>Lusso의 카페는 세피아 톤의 조명과 모던한 인테리어로 커피와 공간이 조화를 이루는 특별한 경험을 제공합니다.</p>
+  </div>
+</section>
+
+<!-- 우리의 메뉴 -->
+<section class="menu fade-in">
+  <h2>우리의 메뉴</h2>
+  <div class="menu-items">
+    <div class="menu-item">
+      <h3>에스프레소</h3>
+      <p>진한 바디감과 깊은 향의 정수.</p>
+    </div>
+    <div class="menu-item">
+      <h3>아메리카노</h3>
+      <p>클래식하면서 깔끔한 고급 블렌드.</p>
+    </div>
+    <div class="menu-item">
+      <h3>라떼</h3>
+      <p>부드러운 우유와 고소한 커피의 조화.</p>
+    </div>
+    <div class="menu-item">
+      <h3>콜드브루</h3>
+      <p>시간을 들여 추출한 시원한 향미.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 연대기 -->
+<section class="timeline fade-in">
+  <h2>Lusso Coffee 연대기</h2>
+  <ul class="timeline-list">
+    <li><strong>2015</strong> - Lusso 브랜드 탄생</li>
+    <li><strong>2017</strong> - 첫 플래그십 카페 오픈 (뉴욕)</li>
+    <li><strong>2020</strong> - 온라인 스토어 런칭</li>
+    <li><strong>2024</strong> - 글로벌 진출 시작 (도쿄, 서울울)</li>
+  </ul>
+</section>
+
+<!-- Contact us -->
+<section class="contact fade-in">
+  <h2>Contact Us</h2>
+  <p>고객의 소중한 의견을 기다립니다.</p>
+  <form class="contact-form">
+    <input type="text" placeholder="성함" required />
+    <input type="email" placeholder="이메일" required />
+    <textarea placeholder="문의 내용을 입력해주세요" required></textarea>
+    <button type="submit">보내기</button>
+  </form>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Lusso Coffee. All rights reserved.</p>
+  </footer>
+
+  <!-- 모달 -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modal-text"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
