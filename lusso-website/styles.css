@@ -224,3 +224,45 @@ footer {
   background-color: #5a4535;
 }
 
+.menu-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menu-category {
+  text-align: center; /* 제목 가운데 정렬 */
+  margin-bottom: 3rem;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* 💡 핵심: 항목 가운데 정렬 */
+  gap: 2rem;
+}
+
+.menu-item {
+  width: 200px;
+  text-align: center;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto; /* ✅ 원본 비율 유지 */
+  object-fit: cover; /* ✅ 여백 없이 채우기 */
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
